@@ -1,0 +1,28 @@
+<!Doctype html>
+<html>
+<head>	
+<title>Chat-App</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+	<h1>
+		<center>Chat-App</center>
+	</h1>
+	<center>
+	<form>
+		<input id = "message" type="text" placeholder = "message">
+		<input type = "submit" value="Send">
+	</form>
+</center>
+
+<ul id="chat"></ul>
+
+ <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+        <script src="/socket.io/socket.io.js"></script>
+
+        <script src="client.js"></script>  
+
+</body>
+</html>
