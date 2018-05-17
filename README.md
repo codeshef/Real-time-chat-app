@@ -47,6 +47,9 @@ Hi! We are creating chat-app using framework like Nodejs and libraries like Sock
 		console.log(data);
 	});
 ->});</li>
+<p> Uptill our app looks like </p>
+<img src ="assets/1.png"></img>
+<img src = "assets/2.png"></img>
 </body>
 </html>
 
